@@ -115,4 +115,14 @@ public class Product {
 		this.quantityPerUnit = quantityPerUnit;
 	}
 
+
+	public Category getCategory() {
+		return category;
+	}
+
+
+	public void setCategory(Category category) {
+		this.category = category;
+	}
+
 }
